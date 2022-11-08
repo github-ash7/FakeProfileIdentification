@@ -1,0 +1,162 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Home</title>
+  </head>
+
+  <body>
+  <div>
+          <h2 style="color: rgb(24, 163, 255); margin: 20px;" class=" text-center mt-3">Fake Profile Identification</h2>  
+      </div>
+      <div class="container">
+
+		  
+          <section>
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-8 col-xl-6">
+                  <div class="row">
+                    <div class="col text-center">
+                      </div>
+                  </div>
+                  <form action="/" method="POST">
+                  
+				  <div class="row align-items-center ">
+                            <div class="col form-group">
+                                <label>Does the profile have a profile picture?</label>
+                               <select name="Profile_pic" id="" class="form-control custom select" required>
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </select>
+					<p style="font-size: 15px;">0 or 1</p>
+                            </div>
+                        </div>
+						
+						
+                  <div class="row align-items-center ">
+                    <div class="col form-group">
+                        <label>Length of username </label>
+                       <input name='userlen' type="text" class="form-control" required>
+                       <p style="font-size: 15px;">0 or 1</p>
+					</div>
+					
+                  </div>
+				  
+				  <div class="row align-items-center ">
+                    <div class="col form-group">
+                        <label>Length of full name word</label>
+                       <input name='fullnamewords' type="text" class="form-control" required>
+                       <p style="font-size: 15px;">0, 1 or 2</p>
+					</div>
+					</div>
+				  
+				  
+				  <div class="row align-items-center ">
+                    <div class="col form-group">
+                        <label>Length of full name</label>
+                       <input name='fullnamelen' type="text" class="form-control" required>
+                       <p style="font-size: 15px;">0, 1 or 2</p>
+					
+                    </div>
+                  </div>
+                  
+                  <div class="row align-items-center ">
+                            <div class="col form-group">
+                                <label>Do the username match the profile name?</label>
+                               <select name="uname_same" id="" class="form-control custom select" required>
+                        <option value="1">Yes</option>
+                        
+                        <option value="0">No</option>
+                    </select>
+                    <p style="font-size: 15px;">0 or 1</p>
+                            </div>
+                        </div>
+                  
+                
+				 <div class="row align-items-center ">
+                    <div class="col form-group">
+                        <label>Length of the description</label>
+                       <input name='descplen' type="text" class="form-control" required>
+                       <p style="font-size: 15px;">0 to 200</p>
+                    </div>
+                  </div>
+				  
+				  <div class="row align-items-center ">
+                            <div class="col form-group">
+                                <label>Does the profile contain an external URL?</label>
+                               <select name="eurl" id="" class="form-control custom select" required>
+                        <option value="1">Yes</option>
+                        
+                        <option value="0">No</option>
+                    </select>
+                    <p style="font-size: 15px;">0 or 1</p>
+                            </div>
+                        </div>
+						
+						<div class="row align-items-center ">
+                            <div class="col form-group">
+                                <label>Is it a private account?</label>
+                               <select name="private" id="" class="form-control custom select" required>
+                        <option value="1">Yes</option>
+                        
+                        <option value="0">No</option>
+                    </select>
+                    <p style="font-size: 15px;">0 or 1</p>
+                            </div>
+                        </div>
+						
+						
+						 <div class="row align-items-center ">
+                    <div class="col form-group">
+                        <label>Total number of posts</label>
+                       <input name='npost' type="text" class="form-control" required>
+                       <p style="font-size: 15px;">0 to 5000</p>
+                    </div>
+                  </div>
+				  
+				  		 <div class="row align-items-center ">
+                    <div class="col form-group">
+                        <label>Total number of followers</label>
+                       <input name='nfollowers' type="text" class="form-control" required>
+                       <p style="font-size: 15px;">any number</p>
+					   
+                    </div>
+                  </div>
+				  
+				   <div class="row align-items-center ">
+                    <div class="col form-group">
+                        <label>Total number of follows</label>
+                       <input name='nfollows' type="text" class="form-control" required>
+                       <p style="font-size: 15px;">any number</p>
+					   
+                    </div>
+                  </div>
+                  
+                  <div class="row justify-content-start ">
+                    <div class="col">
+                       <button class="btn btn-success " type="submit">Submit</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+      </div>
+    </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
